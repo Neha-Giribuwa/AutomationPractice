@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngDemo.Example3"/>
+      <class name="testngDemo.Example2"/>
+      <class name="testngDemo.OrangeHrmPIMWithAssert"/>
+      <class name="testngDemo.Example1"/>
+      <class name="testngDemo.Example7"/>
+      <class name="testngDemo.Example6"/>
+      <class name="testngDemo.OrangeHrmPIM"/>
+      <class name="testngDemo.Example5"/>
+      <class name="testngDemo.Example4"/>
+      <class name="testngDemo.GoogleWithAssert"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

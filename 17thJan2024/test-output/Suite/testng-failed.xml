@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testngDemo.Example7">
+        <methods>
+          <include name="testActitimeWithAssert2"/>
+          <include name="testActitimeWithOutAssert"/>
+          <include name="testActitimeWithAssert4"/>
+          <include name="testActitimeWithAssert1"/>
+        </methods>
+      </class> <!-- testngDemo.Example7 -->
+      <class name="testngDemo.Example6">
+        <methods>
+          <include name="composeEmail"/>
+          <include name="checkDraft"/>
+          <include name="signUp"/>
+          <include name="checkSentItems"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testngDemo.Example6 -->
+      <class name="testngDemo.OrangeHrmPIMWithAssert">
+        <methods>
+          <include name="testOrangeHrmLogin_NegativeFlow"/>
+        </methods>
+      </class> <!-- testngDemo.OrangeHrmPIMWithAssert -->
+      <class name="testngDemo.OrangeHrmPIM">
+        <methods>
+          <include name="testOrangeHrmLogin_NegativeFlow"/>
+        </methods>
+      </class> <!-- testngDemo.OrangeHrmPIM -->
+      <class name="testngDemo.GoogleWithAssert">
+        <methods>
+          <include name="testSearchedGooglePage3"/>
+          <include name="testSearchedGooglePage"/>
+          <include name="testSearchedGooglePage2"/>
+          <include name="testSearchedGooglePag4"/>
+          <include name="testGooglePage"/>
+        </methods>
+      </class> <!-- testngDemo.GoogleWithAssert -->
+      <class name="testngDemo.Example4">
+        <methods>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- testngDemo.Example4 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
